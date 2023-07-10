@@ -1,17 +1,20 @@
-.child {
-  width: 50%;
-  margin: 40px auto;
+.items {
+  display: grid;
+  grid-template-columns: auto auto auto auto;
+  grid-template-rows: auto auto auto auto;
 }
-
 .item {
-  float: left;
-  padding: 10px 20px;
-  font-size: 20px;
-  font-weight: bold;
-  margin: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 7rem;
+  height: 2rem;
+  font-size: 1.25rem;
+  font-weight: 500;
+  margin: 0.5rem;
   border: 2px solid #098a9a;
   color: #098a9a;
   background-color: #fff;
-  border-radius: 10px;
+  border-radius: 1rem;
   cursor: pointer;
 }

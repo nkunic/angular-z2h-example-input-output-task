@@ -10,7 +10,11 @@
 
 <hr />
 
-<app-child
-  [items]="filteredItems"
-  (selectedItemEmitter)="selectItem($event)"
-></app-child>
+<div class="items">
+  <div class="child">
+    <app-child
+      [items]="filteredItems"
+      (selectedItemEmitter)="selectItem($event)"
+    ></app-child>
+  </div>
+</div>
