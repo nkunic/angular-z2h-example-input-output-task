@@ -1,0 +1,28 @@
+.btn-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  margin: 40px auto;
+
+  button {
+    width: 10rem;
+    height: 2.5rem;
+    background: #098a9a;
+    border: 0;
+    border-radius: 10px;
+    color: white;
+    font-size: 1rem;
+    font-weight: bold;
+    outline: none;
+    cursor: pointer;
+  }
+}
+
+.output {
+  display: flex;
+  align-items: center;
+  width: 75%;
+  font-size: 1.25rem;
+  font-weight: bold;
+  color: #098a9a;
+}
